@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+html {
+    display: block;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background: url(/Images/travel-time.png), lightgray -23.976px 0px / 103.33% 100% no-repeat, #FFF;
+}
+
+.header {
+    width: 1170px;
+    height: 39px;
+    flex-shrink: 0;
+}
+
+.header__nav_menu {
+    margin: 73px 2153px 915px 115px;
+    display: flex;
+}
+
+.Rectangle {
+    width: 72px;
+    height: 2px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 110px 1253px 912px 115px;
+}
+
+.nav_menu__items {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 128px;
+}
+
+.nav_menu_items__home {
+    color: var(--White, #FFF);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+
+
+h1 {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 210px 451px 670px 412px;
+}
+
+.p {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    width: 749px;
+}
+
+.button {
+    display: flex;
+    width: 191px;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #00B43D;
+    background: #00B43D;
+    /* Shadow/xs focused 4px error-100 */
+    box-shadow: 0px 0px 0px 4px #FEE4E2, 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    margin: 785px 644px 179px 605px;
+}
+
+button {
+    color: var(--White, #FFF);
+    font-family: interr;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+}
