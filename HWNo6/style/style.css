@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1200px) {
     .header {
         width: 1600px;
         height: 75px;
@@ -251,7 +251,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .header {
             width: 100%;
             height: 75px;
@@ -541,5 +541,161 @@
     
     .catalogs .catalog_item .value {
         margin-top: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 320px;
+        height: 60px;
+    }
+    
+    .img1 {
+        margin: 0px 10px;
+    }
+    
+    .header__left-group {
+        padding: 10px 0px 0px 10px;
+    }
+    
+    .header__right-group {
+        padding: 10px 10px;
+    }
+    
+    .group2 {
+        width: 320px;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .Text {
+        width: 280px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .img_Text {
+        margin: 20px 10px;
+    }
+    
+    .Brand {
+        font-size: 24px;
+    }
+    
+    .OL {
+        font-size: 20px;
+    }
+    
+    .F {
+        font-size: 20px;
+    }
+    
+    .group3 {
+        padding: 10px;
+        width: 300px;
+        height: auto;
+    }
+    
+    .blocks {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    .block__image svg {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .block4__image svg {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .text_image {
+        top: 35%;
+        left: 20%;
+        font-size: 12px;
+    }
+    
+    .Pink {
+        font-size: 16px;
+    }
+    
+    .text_big_image {
+        top: 35%;
+        left: 30%;
+        font-size: 12px;
+    }
+    
+    .group4 {
+        width: 300px;
+        height: auto;
+        padding: 0 10px;
+    }
+    
+    .header__g4 h1 {
+        font-size: 20px;
+    }
+    
+    .header__g4 p {
+        font-size: 12px;
+    }
+    
+    .catalogs {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+    
+    .text_catalog {
+        width: 300px;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .text_catalog p {
+        font-size: 12px;
+    }
+
+    .value {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .catalogs img{
+        position: relative;
+    }
+    
+    .catalogs svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .button {
+        padding: 48px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    button {
+        width: 212px;
+        height: 48px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F26376;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFF;
+        border-color: #F26376;
     }
 }
