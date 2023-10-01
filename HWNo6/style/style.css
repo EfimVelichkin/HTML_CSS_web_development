@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -150,7 +151,7 @@
         width: 1140px;
         height: 1395px;
         flex-shrink: 0;
-        padding: 0 0 0 230px;
+        padding: 0 0 10px 230px;
     }
     
     .header__g4 {
@@ -228,12 +229,12 @@
     }
     
     .button {
-        padding: 48px;
+        padding: 48px 0 120;
         display: flex;
         justify-content: center;
     }
     
-    button {
+    .group4 button {
         width: 212px;
         height: 48px;
         flex-shrink: 0;
@@ -248,6 +249,125 @@
         line-height: normal;
         background-color: #FFF;
         border-color: #F26376;
+    }
+
+    .footer {
+        padding: 110px;
+        width: 1600px;
+        height: 340px;
+        background-color: #222224;;
+    }
+
+    .groupf_1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 100px 150px 0px 20px;
+        padding: 0 0 220px;
+    }
+    .groupf_1 img {
+        margin: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .groupf_1 h1{
+        margin: 20px;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 19.96px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+    .groupf_1 p{
+        color: #FBFBFB;
+        text-align: center;
+        font-family: Lato;
+        font-size: 13.972px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+
+    .image {
+        background-image: url("../public/images/layer-40.png");
+        background-size: cover;
+        background:rgba(244, 244, 244, 0.70);
+        position: absolute;
+        transform: scale(1.14);
+    }
+    .groupf_2 {
+        width: 1712px;
+        height: 480px;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background:rgba(244, 244, 244, 0.70);
+    }
+    .groupf_2 p{
+        color: #222224;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .groupf_2 h1{
+        color: #222224;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 167.2%;
+    }
+    .for {
+        color: #222224;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 167.2%;
+    }
+
+    input {
+        background-image: url("../public/images/rounded-rectangle-5.png");
+        border: none;
+        padding: 17px;
+    }
+    .but {
+        background-image: url("../public/images/rounded-rectangle-5-copy.png");
+        border: none;
+        padding: 17px 20px;
+    }
+
+    .groupf_3 {
+        width: 1600px;
+        height: 79px;
+        background-color: #222224;
+        display: flex;
+        align-items: flex-start;
+    }
+    .groupf_3 p {
+        flex: 0.5;
+        color: #FBFBFB;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin: 30px 230px 230px 30px;
+    }
+    .groupf_3 img {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        display: flex;
+        margin: 30px 0 0 30px;
     }
 }
 
